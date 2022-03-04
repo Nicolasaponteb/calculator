@@ -13,6 +13,7 @@
 		049CC1E327D00A1E003EF709 /* iOScalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CC1E227D00A1E003EF709 /* iOScalculatorTests.swift */; };
 		049CC1ED27D00A1E003EF709 /* iOScalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CC1EC27D00A1E003EF709 /* iOScalculatorUITests.swift */; };
 		049CC1EF27D00A1E003EF709 /* iOScalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CC1EE27D00A1E003EF709 /* iOScalculatorUITestsLaunchTests.swift */; };
+		04A0BF8427D2A6B0005CE7FA /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0BF8327D2A6B0005CE7FA /* UIButtonExtension.swift */; };
 		04BD322627D17077008B8808 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD322427D17077008B8808 /* HomeViewController.swift */; };
 		04BD322727D17077008B8808 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BD322527D17077008B8808 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		049CC1E827D00A1E003EF709 /* iOScalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOScalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049CC1EC27D00A1E003EF709 /* iOScalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOScalculatorUITests.swift; sourceTree = "<group>"; };
 		049CC1EE27D00A1E003EF709 /* iOScalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOScalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A0BF8327D2A6B0005CE7FA /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		04BD322427D17077008B8808 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04BD322527D17077008B8808 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +162,7 @@
 		04BD322027D16C0B008B8808 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				04A0BF8327D2A6B0005CE7FA /* UIButtonExtension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			files = (
 				049CC1CC27D00A1D003EF709 /* AppDelegate.swift in Sources */,
 				04BD322627D17077008B8808 /* HomeViewController.swift in Sources */,
+				04A0BF8427D2A6B0005CE7FA /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
