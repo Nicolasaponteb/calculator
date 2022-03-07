@@ -53,7 +53,7 @@
                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="AC">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="operatorACAction:" destination="-1" eventType="touchUpInside" id="oQw-wy-6gT"/>
@@ -68,7 +68,7 @@
                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="+/-">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="operatorPlusMinusAction:" destination="-1" eventType="touchUpInside" id="wJt-aE-UmQ"/>
@@ -83,7 +83,7 @@
                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="%">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="operatorPercentAction:" destination="-1" eventType="touchUpInside" id="zvv-Vw-Uum"/>
@@ -118,7 +118,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="7">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="4hj-Cp-qeA"/>
@@ -133,7 +133,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="8">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="gmV-AF-k0J"/>
@@ -148,7 +148,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="9">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="3qF-wd-3GS"/>
@@ -183,7 +183,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="4">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="JAg-Kh-taL"/>
@@ -198,7 +198,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="5">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="rC9-IY-Pp8"/>
@@ -213,7 +213,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="6">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="u8D-TA-2Zi"/>
@@ -248,7 +248,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="1">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="hFP-eR-kNi"/>
@@ -263,7 +263,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="2">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="VeQ-ME-tFX"/>
@@ -278,7 +278,7 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="3">
-                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="Ruv-hG-57M"/>
@@ -313,7 +313,7 @@
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title="0">
-                                                <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                                <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                             </buttonConfiguration>
                                             <connections>
                                                 <action selector="numberAction:" destination="-1" eventType="touchUpInside" id="QuE-dR-lw9"/>
@@ -333,7 +333,7 @@
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title=",">
-                                                <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                                <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                             </buttonConfiguration>
                                             <connections>
                                                 <action selector="numberDecimalAction:" destination="-1" eventType="touchUpInside" id="WeL-E8-GD6"/>
@@ -348,7 +348,7 @@
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title="=">
-                                                <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="35"/>
+                                                <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                             </buttonConfiguration>
                                             <connections>
                                                 <action selector="operatorResultAction:" destination="-1" eventType="touchUpInside" id="eVM-0d-M6j"/>
