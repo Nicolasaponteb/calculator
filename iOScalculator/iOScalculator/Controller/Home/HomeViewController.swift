@@ -49,6 +49,7 @@ final class HomeViewController: UIViewController {
     
     private let kDecimalSeparator = Locale.current.decimalSeparator!
     private let kMaxLength = 9
+    private let kTotal = "total"
     
     private enum OperationType {
         case none, addition, substraction, multiplication, division, percent
@@ -116,6 +117,16 @@ final class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        numberDecimal.setTitle(kDecimalSeparator, for: .normal)
+        
+        total = UserDefaults.standard.double(forKey: kTotal)
+        
+        result()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
         // UI
         number0.round()
         number1.round()
@@ -137,10 +148,6 @@ final class HomeViewController: UIViewController {
         operatorSubstraction.round()
         operatorMultiplication.round()
         operatorDivision.round()
-        
-        numberDecimal.setTitle(kDecimalSeparator, for: .normal)
-        
-        result()
     }
     
     // MARK: - Button Actions
@@ -184,34 +191,50 @@ final class HomeViewController: UIViewController {
     
     @IBAction func operatorAdditionAction(_ sender: UIButton) {
         
-        result()
+        if operation != .none{
+            result()
+        }
+        
+        
         operating = true
         operation = .addition
+        
         
         sender.shine()
     }
     
     @IBAction func operatorSubstractionAction(_ sender: UIButton) {
         
-        result()
+        if operation != .none{
+            result()
+        }
+        
         operating = true
         operation = .substraction
+        
         
         sender.shine()
     }
     
     @IBAction func operatorMultiplicationAction(_ sender: UIButton) {
         
-        result()
+        if operation != .none{
+            result()
+        }
+        
         operating = true
         operation = .multiplication
+        
         
         sender.shine()
     }
     
     @IBAction func operatorDivisionAction(_ sender: UIButton) {
         
-        result()
+        if operation != .none{
+            result()
+        }
+        
         operating = true
         operation = .division
         
@@ -227,6 +250,7 @@ final class HomeViewController: UIViewController {
         
         resultLabel.text = resultLabel.text! + kDecimalSeparator
         decimal = true
+        
         
         sender.shine()
     }
@@ -259,6 +283,7 @@ final class HomeViewController: UIViewController {
         let number = sender.tag
         temp = Double(currentTemp + String(number))!
         resultLabel.text = printFormatter.string(from: NSNumber(value: temp))
+        
         
         sender.shine()
     }
@@ -306,7 +331,8 @@ final class HomeViewController: UIViewController {
         
         operation = .none
         
+        UserDefaults.standard.set(total, forKey: kTotal)
+        
         print(total)
     }
-    
 }
